@@ -76,7 +76,10 @@
 - [Python 3](https://www.python.org/)
 
 ## 第三方库
-
+- 安装依赖失败 `error: Microsoft Visual C++ 14.0 is required. Get it with "Build Tools for Visual Studi`
+- 解决方案[https://blog.csdn.net/weixin_45735297/article/details/105509316](https://blog.csdn.net/weixin_45735297/article/details/105509316)
+- 查看pip 包管理版本号
+`pip show pip`
 - 需要使用到的库已经放在requirements.txt，使用pip安装的可以使用指令  
 `pip install -r requirements.txt`
 - 如果国内安装第三方库比较慢，可以使用以下指令进行清华源加速
